@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InformeFacturas
+</name>
+</assembly>
+<members>
+<member name="M:InformeFacturas.CertificadoParametro.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.CertificadoParametro.ObtenerParametrosCertificado(System.String,InformeFacturas.CertificadoParametro@)">
+	<summary>
+ Obtiene la configuracion de los datos de un webservice para generar el token y sign
+ </summary>
+	<param name="strTipoWebService">Codigo del webservice que se va a utilizar. 
+ Ej: wsfe para factura electronica.</param>
+	<param name="oCertificado">Datos devueltos</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.wsfe.Service.#ctor">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECAESolicitarCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECompTotXRequestCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEDummyCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECompUltimoAutorizadoCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECompConsultarCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECAEARegInformativoCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECAEASolicitarCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECAEASinMovimientoConsultarCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECAEASinMovimientoInformarCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FECAEAConsultarCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetCotizacionCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposTributosCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposMonedasCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposIvaCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposOpcionalCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposConceptoCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetPtosVentaCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposCbteCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposDocCompleted">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsfe.Service.FEParamGetTiposPaisesCompleted">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAESolicitar(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECAERequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAESolicitarAsync(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECAERequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAESolicitarAsync(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECAERequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompTotXRequest(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompTotXRequestAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompTotXRequestAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEDummy">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEDummyAsync">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEDummyAsync(System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompUltimoAutorizado(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompUltimoAutorizadoAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompUltimoAutorizadoAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompConsultar(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECompConsultaReq)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompConsultarAsync(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECompConsultaReq)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECompConsultarAsync(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECompConsultaReq,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEARegInformativo(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECAEARequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEARegInformativoAsync(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECAEARequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEARegInformativoAsync(InformeFacturas.wsfe.FEAuthRequest,InformeFacturas.wsfe.FECAEARequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASolicitar(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASolicitarAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASolicitarAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASinMovimientoConsultar(InformeFacturas.wsfe.FEAuthRequest,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASinMovimientoConsultarAsync(InformeFacturas.wsfe.FEAuthRequest,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASinMovimientoConsultarAsync(InformeFacturas.wsfe.FEAuthRequest,System.String,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASinMovimientoInformar(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASinMovimientoInformarAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEASinMovimientoInformarAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEAConsultar(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEAConsultarAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int16)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FECAEAConsultarAsync(InformeFacturas.wsfe.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetCotizacion(InformeFacturas.wsfe.FEAuthRequest,System.String)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetCotizacionAsync(InformeFacturas.wsfe.FEAuthRequest,System.String)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetCotizacionAsync(InformeFacturas.wsfe.FEAuthRequest,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposTributos(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposTributosAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposTributosAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposMonedas(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposMonedasAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposMonedasAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposIva(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposIvaAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposIvaAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposOpcional(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposOpcionalAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposOpcionalAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposConcepto(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposConceptoAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposConceptoAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetPtosVenta(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetPtosVentaAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetPtosVentaAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposCbte(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposCbteAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposCbteAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposDoc(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposDocAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposDocAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposPaises(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposPaisesAsync(InformeFacturas.wsfe.FEAuthRequest)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.FEParamGetTiposPaisesAsync(InformeFacturas.wsfe.FEAuthRequest,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsfe.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Service">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEAuthRequest.Token">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEAuthRequest.Sign">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEAuthRequest.Cuit">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEAuthRequest">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.PaisTipo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.PaisTipo.Desc">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.PaisTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEPaisResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEPaisResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEPaisResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEPaisResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Err.Code">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Err.Msg">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Err">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Evt.Code">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Evt.Msg">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Evt">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DocTipo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DocTipo.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DocTipo.FchDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DocTipo.FchHasta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.DocTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DocTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DocTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DocTipoResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.DocTipoResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteTipo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteTipo.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteTipo.FchDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteTipo.FchHasta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.CbteTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteTipoResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.CbteTipoResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.PtoVenta.Nro">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.PtoVenta.EmisionTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.PtoVenta.Bloqueado">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.PtoVenta.FchBaja">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.PtoVenta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEPtoVentaResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEPtoVentaResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEPtoVentaResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEPtoVentaResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.ConceptoTipo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.ConceptoTipo.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.ConceptoTipo.FchDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.ConceptoTipo.FchHasta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.ConceptoTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.ConceptoTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.ConceptoTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.ConceptoTipoResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.ConceptoTipoResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.OpcionalTipo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.OpcionalTipo.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.OpcionalTipo.FchDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.OpcionalTipo.FchHasta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.OpcionalTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.OpcionalTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.OpcionalTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.OpcionalTipoResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.OpcionalTipoResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.IvaTipo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.IvaTipo.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.IvaTipo.FchDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.IvaTipo.FchHasta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.IvaTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.IvaTipoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.IvaTipoResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.IvaTipoResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.IvaTipoResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Moneda.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Moneda.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Moneda.FchDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Moneda.FchHasta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Moneda">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.MonedaResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.MonedaResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.MonedaResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.MonedaResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.TributoTipo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.TributoTipo.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.TributoTipo.FchDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.TributoTipo.FchHasta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.TributoTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FETributoResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FETributoResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FETributoResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FETributoResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Cotizacion.MonId">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Cotizacion.MonCotiz">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Cotizacion.FchCotiz">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Cotizacion">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECotizacionResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECotizacionResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECotizacionResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECotizacionResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMov.CAEA">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMov.FchProceso">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMov.PtoVta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASinMov">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovResponse.Resultado">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASinMovResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovConsResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovConsResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovConsResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASinMovConsResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGet.CAEA">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGet.Periodo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGet.Orden">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGet.FchVigDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGet.FchVigHasta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGet.FchTopeInf">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGet.FchProceso">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEAGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGetResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGetResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAGetResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEAGetResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAResponse.FeCabResp">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAResponse.FeDetResp">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAResponse.Events">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAResponse.Errors">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEAResponse">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEACabResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabResponse.Cuit">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabResponse.PtoVta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabResponse.CbteTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabResponse.FchProceso">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabResponse.CantReg">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabResponse.Resultado">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabResponse.Reproceso">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECabResponse">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAECabResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEADetResponse.CAEA">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEADetResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.Concepto">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.DocTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.DocNro">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.CbteDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.CbteHasta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.CbteFch">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.Resultado">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetResponse.Observaciones">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEDetResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Obs.Code">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Obs.Msg">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Obs">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEDetResponse.CAE">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEDetResponse.CAEFchVto">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEDetResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEARequest.FeCabReq">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEARequest.FeDetReq">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEARequest">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEACabRequest">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabRequest.CantReg">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabRequest.PtoVta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECabRequest.CbteTipo">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECabRequest">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAECabRequest">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEADetRequest.CAEA">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEADetRequest">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.Concepto">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.DocTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.DocNro">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.CbteDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.CbteHasta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.CbteFch">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.ImpTotal">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.ImpTotConc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.ImpNeto">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.ImpOpEx">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.ImpTrib">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.ImpIVA">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.FchServDesde">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.FchServHasta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.FchVtoPago">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.MonId">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.MonCotiz">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.CbtesAsoc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.Tributos">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.Iva">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDetRequest.Opcionales">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEDetRequest">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteAsoc.Tipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteAsoc.PtoVta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.CbteAsoc.Nro">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.CbteAsoc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Tributo.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Tributo.Desc">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Tributo.BaseImp">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Tributo.Alic">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Tributo.Importe">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Tributo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.AlicIva.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.AlicIva.BaseImp">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.AlicIva.Importe">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.AlicIva">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Opcional.Id">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.Opcional.Valor">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.Opcional">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEDetRequest">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.Resultado">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.CodAutorizacion">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.EmisionTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.FchVto">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.FchProceso">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.Observaciones">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.PtoVta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsResponse.CbteTipo">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompConsResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsultaResponse.ResultGet">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsultaResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsultaResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompConsultaResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsultaReq.CbteTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsultaReq.CbteNro">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsultaReq.PtoVta">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompConsultaReq">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERecuperaLastCbteResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERecuperaLastCbteResponse.PtoVta">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERecuperaLastCbteResponse.CbteTipo">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERecuperaLastCbteResponse.CbteNro">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERecuperaLastCbteResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FERecuperaLastCbteResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DummyResponse.AppServer">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DummyResponse.DbServer">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.DummyResponse.AuthServer">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.DummyResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERegXReqResponse.RegXReq">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERegXReqResponse.Errors">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FERegXReqResponse.Events">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FERegXReqResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEResponse.FeCabResp">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEResponse.FeDetResp">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEResponse.Events">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEResponse.Errors">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEResponse">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAERequest.FeCabReq">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAERequest.FeDetReq">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAERequest">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAESolicitarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAESolicitarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAESolicitarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompTotXRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompTotXRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompTotXRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEDummyCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEDummyCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEDummyCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompUltimoAutorizadoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompUltimoAutorizadoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompUltimoAutorizadoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompConsultarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECompConsultarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECompConsultarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEARegInformativoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEARegInformativoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEARegInformativoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASolicitarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASolicitarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASolicitarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASinMovimientoConsultarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovimientoConsultarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASinMovimientoConsultarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASinMovimientoInformarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEASinMovimientoInformarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEASinMovimientoInformarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEAConsultarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FECAEAConsultarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FECAEAConsultarCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetCotizacionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetCotizacionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetCotizacionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposTributosCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposTributosCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposTributosCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposMonedasCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposMonedasCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposMonedasCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposIvaCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposIvaCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposIvaCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposOpcionalCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposOpcionalCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposOpcionalCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposConceptoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposConceptoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposConceptoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetPtosVentaCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetPtosVentaCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetPtosVentaCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposCbteCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposCbteCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposCbteCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposDocCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposDocCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposDocCompletedEventArgs">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposPaisesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsfe.FEParamGetTiposPaisesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsfe.FEParamGetTiposPaisesCompletedEventArgs">
+	<remarks/>
+</member><member name="M:InformeFacturas.Factura.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Factura.#ctor">
+	<summary>
+ Inicializa el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Factura.ListarFacturasSinInformar(InformeFacturas.dsDatos@,System.Int16)">
+	<summary>
+ Trae las facturas sin informar y que todavia estan dentro del tope permitido por el CAE
+ Hay que informar por un lado las FACTURAS A y por otro las B
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Factura.InformarFacturas(InformeFacturas.dsDatos,InformeFacturas.AuthenticationRequest,System.String,System.Int16)">
+	<summary>
+ Informa las facturas utilizando el webservice de la afip
+ </summary>
+	<param name="dsFacturas">Dataset con las facturas a informar</param>
+	<param name="oAuthentication">Objeto de authenticacion para el webservice de la AFIP</param>
+	<param name="strPuestoVenta">Puesto de venta del que se van a informas las facturas</param>
+	<param name="intTipoComprobante">Tipo de comprobante que se va a informar
+ 1: Factura A
+ 2: Nota de Débito A 
+ 3: Nota de Crédito A 
+ 6: Factura B 
+ 7: Nota de Débito B 
+ 8: Nota de Crédito B  
+ </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Factura.ActualizarStatusFacturaInformada(System.Int64)">
+	<summary>
+ Actualiza el campo InformadaEnAFIP =1 en la base de datos para indicar que la factura ya se informo
+ </summary>
+	<param name="lngIDfactura">ID de la factura a actualizar</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.FacturaItems.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.FacturaItems.#ctor">
+	<summary>
+ Inicializa el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.FacturaItems.NuevoItemFactura">
+	<summary>
+ Inserta los items de una factura en la base
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.FacturaItems.TraerDatosFacturaItems(System.Int32,InformeFacturas.dsDatos@)">
+	<summary>
+ Trae los items de una factura
+ </summary>
+	<param name="intIDFactura">ID de la factura que se quieren obtener los items</param>
+	<param name="dsData">Dataset con los datos cargados</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Funciones.GetServerDate">
+	<summary>
+ Obtiene la fecha del servidor de base de datos.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Funciones.EncriptarMD5(System.String)">
+	<summary>
+ Encripta los datos para generar la licencia utilizando MD5
+ </summary>
+	<param name="strPass"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Funciones.ValidarCUIT(System.String)">
+	<summary>
+ Funcion que valida cuit
+ </summary>
+	<param name="strNroCuit">cuit a verificar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.CAEA.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.TipoComprobante.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.AuthenticationRequest.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.AuthenticationRequest.ObtenerAuthenticationRequest(System.String,InformeFacturas.AuthenticationRequest@)">
+	<summary>
+ Obtiene el authentication request, si se encuentra valido
+ </summary>
+	<param name="strTipoWebService">Codigo del webservice que se va a utilizar. 
+ Ej: wsfe para factura electronica.</param>
+	<param name="oAuthentication">Datos devueltos</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.AuthenticationRequest.GenerarTokenYsignature(System.String,InformeFacturas.CertificadoParametro,InformeFacturas.AuthenticationRequest@)">
+	<summary>
+ Obtiene el token y signature para el Webservice elegido
+ </summary>
+	<param name="strTipoWebService"></param>
+	<param name="oParametros">Parametros para obtener el token</param>
+	<param name="oAuthentication">Datos devueltos</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.AuthenticationRequest.InsertarAuthenticationRequest">
+	<summary>
+ Inserta los nuevos datos de authentication Requesst
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.CertificadosX509Lib.FirmaBytesMensaje(System.Byte[],System.Security.Cryptography.X509Certificates.X509Certificate2)">
+	<summary>
+ Firma mensaje
+ </summary>
+	<param name="argBytesMsg">Bytes del mensaje</param>
+	<param name="argCertFirmante">Certificado usado para firmar</param>
+	<returns>Bytes del mensaje firmado</returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.CertificadosX509Lib.ObtieneCertificadoDesdeArchivo(System.String,System.String)">
+	<summary>
+ Lee certificado de disco
+ </summary>
+	<param name="argArchivo">Ruta del certificado a leer.</param>
+	<returns>Un objeto certificado X509</returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Cliente.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="P:InformeFacturas.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:InformeFacturas.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:InformeFacturas.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:InformeFacturas.Cuenta.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.CondicionIVA.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.PuestoDeVenta.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member><member name="T:InformeFacturas.dsDatos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:InformeFacturas.wsaa.LoginCMSService.#ctor">
+	<remarks/>
+</member><member name="E:InformeFacturas.wsaa.LoginCMSService.loginCmsCompleted">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsaa.LoginCMSService.loginCms(System.String)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsaa.LoginCMSService.loginCmsAsync(System.String)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsaa.LoginCMSService.loginCmsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:InformeFacturas.wsaa.LoginCMSService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsaa.LoginCMSService">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsaa.loginCmsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:InformeFacturas.wsaa.loginCmsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:InformeFacturas.wsaa.loginCmsCompletedEventArgs">
+	<remarks/>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.#ctor(InformeFacturas.clsSQLDataManagement.Providers,System.String,System.String,System.String,System.String)">
+	<summary>
+ Initializes the class, indicating the provider use to connect to database
+ </summary>
+	<param name="intProvider"></param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.InitializeCommand">
+	<summary>
+ Initializes the command
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.CloseConnection(InformeFacturas.clsSQLDataManagement.Providers)">
+	<summary>
+ Close the connection to the database
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.OpenConnection">
+	<summary>
+ Opens the connection to the database
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.PrepareCommand(System.String)">
+	<summary>
+ Adds the query to the Command.CommandText property
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteQuery(System.String)">
+	<summary>
+Executes a query and returns the results in a datareader
+ Used for SELECT queries
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<returns>The query resutls.</returns>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteScalar(System.String)">
+	<summary>
+ Executes an scalar
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<returns>Scalar result</returns>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteNonQuery(System.String)">
+	<summary>
+ Executes a non query command.
+ Used for DELETE, INSERT or UPDATE operations
+ </summary>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.TestConnection">
+	<summary>
+ Test connection to SQL Server
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.BeginTransaction">
+	<summary>
+ Begins a transaction
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.CommitTransaction">
+	<summary>
+ Commits a transaction
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.RollbackTransaction">
+	<summary>
+ Rollbacks a transaction
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.Dispose">
+	<summary>
+ Destroy the object
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.PrepareDataset(System.String)">
+	<summary>
+ Prepares the basic commands for the dataset
+ </summary>
+	<param name="strQuery"></param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.PrepareCommandForSP(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+ Sets the command to execute stored procedures
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.PrepareCommandForSP(System.String,System.String,System.String)">
+	<summary>
+ Sets the command to execute stored procedures
+ </summary>
+	<param name="strQuery">Nombre del store procedure a ejecutar</param>
+	<param name="strParametroNombre">nombre del parametro o variable del SP</param>
+	<param name="strParametroValor">Valor que se asigna al parametro del SP </param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.PrepareCommandForSP(System.String,System.Int32,System.String)">
+	<summary>
+ Sets the command to execute stored procedures
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<param name="strParametroNombre">Paremetro unico</param>
+	<param name="intParametroValor"></param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteDataset(System.String,System.String,System.Boolean,System.Data.OleDb.OleDbParameterCollection,InformeFacturas.dsDatos)">
+	<summary>
+ Executes a query a returns the results in a dataset.
+ </summary>
+	<param name="strQuery">Query to be executed or SP name</param>
+	<param name="strTableName">Table name, this will be used to fill the dataset
+ through the adapter and using the table name</param>
+	<param name="blnStoredProcedure">Indica si se va a ejecutar un stored procedure o una query normal</param>
+	<param name="oParametros">Colleccion de parametros del SP</param>
+	<returns>Dataset</returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteDataset(System.String,System.String,System.String,System.String,System.Boolean,InformeFacturas.dsDatos)">
+	<summary>
+ Executes a query a returns the results in a dataset.
+ </summary>
+	<param name="strQuery">Query to be executed or SP name</param>
+	<param name="strTableName">Table name, this will be used to fill the dataset
+ through the adapter and using the table name</param>
+	<param name="strParametro">Nombre del parametro en el SP</param>
+	<param name="strValor">VAlor a asignar a la variable</param>
+	<param name="blnStoredProcedure">Indica si se va a ejecutar un stored procedure o una query normal</param>
+  Colleccion de parametros del SP
+ <returns>Dataset</returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteSPNonQuery(System.String,System.String,System.String)">
+	<summary>
+ Ejecuta un SP con un solo parametro
+ </summary>
+	<param name="strProcedureName">Nombre del procedimiento almacenado a ejecutar</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteSPNonQuery(System.String,System.String,System.Int64)">
+	<summary>
+ Ejecuta un SP con un solo parametro
+ </summary>
+	<param name="strProcedureName">Nombre del procedimiento almacenado a ejecutar</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.PrepareCommandForSP(System.String,System.Int64,System.String)">
+	<summary>
+ Sets the command to execute stored procedures
+ </summary>
+	<param name="strQuery">Query to be executed</param>
+	<param name="strParametroNombre">Paremetro unico</param>
+	<param name="lngParametroValor"></param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteSPNonQuery(System.String,System.String,System.Int32)">
+	<summary>
+ Ejecuta un SP con un solo parametro
+ </summary>
+	<param name="strProcedureName">Nombre del SP a ejecutar</param>
+	<param name="strParametroNombre">Nombre del parametro del SP</param>
+	<param name="intValor">Valor a asignar a la variable</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteSPNonQuery(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+ Ejecuta un SP con varios parametros
+ </summary>
+	<param name="strProcedureName">Nombre del procedimiento almacenado a ejecutar</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteReaderStoredProcedure(System.String,System.String,System.String)">
+	<summary>
+Executes a SP and returns the results in a datareader
+ Used for SELECT queries
+ </summary>
+	<param name="strStoredProcedure">Nombre del stored procedure a ejecutar</param>
+	<param name="strParametroNombre">Nombre  del parametro del SP</param>
+	<param name="strValor">Valor que se asigna a la varible del SP</param>
+	<returns>The query resutls.</returns>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteReaderStoredProcedure(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+Executes a SP and returns the results in a datareader
+ Used for SELECT queries
+ </summary>
+	<param name="strStoredProcedure">Nombre del stored procedure a ejecutar</param>
+	<param name="oParametros">Colecion de parametros del SP</param>
+	<returns>The query resutls.</returns>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteSPScalar(System.String,System.String,System.String)">
+	<summary>
+ Ejecuta un Scalar de un SP con un parametro
+ </summary>
+	<param name="strProcedureName">Nombre del SP a ejecutar</param>
+	<param name="strParametroNombre">Nombre del parametro del SP</param>
+	<param name="strValor">Valor para ese parametro</param>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.clsSQLDataManagement.ExecuteSPScalar(System.String,System.Data.OleDb.OleDbParameterCollection)">
+	<summary>
+ Ejecuta un Scalar de un SP con mas de un parametro 
+ </summary>
+	<param name="strProcedureName">Nombre del SP a ejecutar</param>
+	<param name="oParametros">Collecion de parametros con sus valores</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InformeFacturas.Tarjeta.Dispose">
+	<summary>
+ Destruye el objeto
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

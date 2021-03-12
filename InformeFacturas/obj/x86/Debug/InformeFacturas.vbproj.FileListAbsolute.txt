@@ -1,0 +1,25 @@
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\bin\Debug\InformeFacturas.exe
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\bin\Debug\InformeFacturas.pdb
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\bin\Debug\InformeFacturas.xml
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\obj\x86\Debug\InformeFacturas.Resources.resources
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\obj\x86\Debug\InformeFacturas.vbproj.GenerateResource.Cache
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\obj\x86\Debug\InformeFacturas.exe
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\obj\x86\Debug\InformeFacturas.xml
+C:\Users\Fernando\AppData\Local\Temporary Projects\InformeFacturas\obj\x86\Debug\InformeFacturas.pdb
+C:\Users\Fernando\Documents\Visual Studio 2010\Projects\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.exe
+C:\Users\Fernando\Documents\Visual Studio 2010\Projects\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.xml
+C:\Users\Fernando\Documents\Visual Studio 2010\Projects\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.pdb
+C:\Users\Fernando\Documents\Visual Studio 2010\Projects\InformeFacturas\InformeFacturas\bin\Debug\InformeFacturas.exe.config
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\bin\Debug\InformeFacturas.exe
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\bin\Debug\InformeFacturas.pdb
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\bin\Debug\InformeFacturas.xml
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.Resources.resources
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.vbproj.GenerateResource.Cache
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\bin\Debug\InformeFacturas.exe.manifest
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\bin\Debug\InformeFacturas.application
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.exe.manifest
+C:\Users\Fernando\documents\visual studio 2010\Projects\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.application
+C:\Users\Fernando\OneDrive\InformeFacturas\InformeFacturas\bin\Debug\InformeFacturas.exe.config
+C:\Users\Fernando\OneDrive\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.exe
+C:\Users\Fernando\OneDrive\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.xml
+C:\Users\Fernando\OneDrive\InformeFacturas\InformeFacturas\obj\x86\Debug\InformeFacturas.pdb
